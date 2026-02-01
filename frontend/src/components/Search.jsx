@@ -159,8 +159,8 @@ const Search = ({ onResultSelect, onClose }) => {
 
         .search-input-field {
           width: 100%;
-          background: rgba(255, 255, 255, 0.1);
-          border: 1px solid rgba(255, 255, 255, 0.1);
+          background: rgba(255, 255, 255, 0.08);
+          border: 1px solid rgba(229, 9, 20, 0.2);
           color: white;
           padding: 0.875rem 3rem 0.875rem 3rem;
           border-radius: 2rem;
@@ -170,8 +170,9 @@ const Search = ({ onResultSelect, onClose }) => {
 
         .search-input-field:focus {
           outline: none;
-          background: rgba(255, 255, 255, 0.15);
+          background: rgba(255, 255, 255, 0.12);
           border-color: #e50914;
+          box-shadow: 0 0 20px rgba(229, 9, 20, 0.2);
         }
 
         .search-clear-btn {
@@ -217,12 +218,13 @@ const Search = ({ onResultSelect, onClose }) => {
           left: 0;
           right: 0;
           margin-top: 0.5rem;
-          background: #1a1a1a;
+          background: #141414;
           border-radius: 0.75rem;
           box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
           max-height: 400px;
           overflow-y: auto;
           z-index: 100;
+          border: 1px solid rgba(229, 9, 20, 0.2);
         }
 
         .search-result-item {

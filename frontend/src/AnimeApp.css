@@ -1,21 +1,21 @@
-/* ==================== NEON MIDNIGHT THEME ==================== */
+/* ==================== CRIMSON NIGHT THEME ==================== */
 :root {
-  /* Core Colors */
-  --bg-dark: #0f0c29;
-  --bg-darker: #0a0a12;
-  --bg-card: #1a1a2e;
-  --primary: #8a2be2;
-  /* Neon Purple */
-  --primary-glow: rgba(138, 43, 226, 0.6);
-  --secondary: #00ffff;
-  /* Cyan */
-  --secondary-glow: rgba(0, 255, 255, 0.6);
+  /* Core Colors - BLACK & RED THEME */
+  --bg-dark: #0a0a0a;
+  --bg-darker: #050505;
+  --bg-card: #141414;
+  --primary: #e50914;
+  /* Netflix Red */
+  --primary-glow: rgba(229, 9, 20, 0.6);
+  --secondary: #b91c1c;
+  /* Dark Red */
+  --secondary-glow: rgba(185, 28, 28, 0.6);
   --text-main: #ffffff;
-  --text-muted: rgba(255, 255, 255, 0.7);
+  --text-muted: rgba(255, 255, 255, 0.65);
 
   /* Glassmorphism */
-  --glass-bg: rgba(20, 20, 40, 0.7);
-  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-bg: rgba(10, 10, 10, 0.85);
+  --glass-border: rgba(229, 9, 20, 0.1);
   --glass-blur: 12px;
 
   /* Layout */
@@ -28,14 +28,14 @@
   /* Card FX */
   --card-border: 2px;
   --card-lift: -4px;
-  --card-shadow: 0 18px 38px rgba(0, 0, 0, 0.35);
+  --card-shadow: 0 18px 38px rgba(0, 0, 0, 0.45);
   --card-ease: cubic-bezier(0.4, 0.2, 0.2, 1);
   --card-gradient: linear-gradient(135deg,
-      #3b82f6,
-      #7c3aed,
-      #c026d3,
-      #22d3ee,
-      #3b82f6);
+      #e50914,
+      #dc2626,
+      #b91c1c,
+      #991b1b,
+      #e50914);
 }
 
 /* ==================== GLOBAL STYLES ==================== */
@@ -109,13 +109,13 @@ button {
 }
 
 .btn-primary {
-  background: var(--primary);
+  background: linear-gradient(135deg, #e50914 0%, #b91c1c 100%);
   color: white;
   padding: 0.75rem 1.5rem;
   border-radius: var(--radius-sm);
   font-weight: 600;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(138, 43, 226, 0.3);
+  box-shadow: 0 4px 15px rgba(229, 9, 20, 0.3);
 }
 
 /* ==================== CUSTOM LOADING ANIMATION ==================== */
@@ -127,7 +127,7 @@ button {
   bottom: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(15, 12, 41, 0.9);
+  background: rgba(10, 10, 10, 0.95);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   display: flex;
@@ -213,7 +213,7 @@ button {
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(138, 43, 226, 0.5);
+  box-shadow: 0 6px 20px rgba(229, 9, 20, 0.5);
 }
 
 .btn-secondary {
@@ -240,16 +240,16 @@ button {
   width: 100%;
   height: var(--nav-height);
   z-index: 1000;
-  background: rgba(15, 12, 41, 0.95);
+  background: rgba(10, 10, 10, 0.95);
   backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(229, 9, 20, 0.1);
   transition: all 0.3s ease;
   transform: translateZ(0);
 }
 
 .anime-nav.scrolled {
-  background: rgba(10, 10, 18, 0.95);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  background: rgba(5, 5, 5, 0.98);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 .nav-container {
@@ -524,9 +524,9 @@ button {
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  background: #0f0f1a;
+  background: #141414;
   overflow: visible;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
   isolation: isolate;
 }
 
@@ -776,10 +776,10 @@ button {
 
 /* ==================== FOOTER ==================== */
 .site-footer {
-  background: #050508;
+  background: #030303;
   padding: 4rem 0 2rem;
   margin-top: 5rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-top: 1px solid rgba(229, 9, 20, 0.15);
 }
 
 .footer-grid {
@@ -864,7 +864,7 @@ button {
   width: 100vw !important;
   height: 100vh !important;
   min-height: unset !important;
-  background: rgba(10, 10, 18, 0.85) !important;
+  background: rgba(10, 10, 10, 0.92) !important;
   backdrop-filter: blur(8px) !important;
   -webkit-backdrop-filter: blur(8px) !important;
   border-radius: 0 !important;
@@ -908,14 +908,14 @@ button {
   text-transform: uppercase;
   transform-style: preserve-3d !important;
   width: 50px;
-  filter: drop-shadow(0 10px 20px rgba(138, 43, 226, 0.5));
+  filter: drop-shadow(0 10px 20px rgba(229, 9, 20, 0.5));
   z-index: 1;
 }
 
 .letter-panel-3d {
   align-items: center;
-  background: rgba(15, 15, 25, 0.95);
-  border: 6px solid hsl(260, 90%, 65%);
+  background: rgba(10, 10, 10, 0.95);
+  border: 6px solid hsl(0, 90%, 50%);
   display: flex;
   height: 50px;
   justify-content: center;
@@ -924,8 +924,8 @@ button {
   top: 50%;
   width: 50px;
   box-shadow:
-    0 0 25px rgba(138, 43, 226, 0.6),
-    inset 0 0 15px rgba(138, 43, 226, 0.3),
+    0 0 25px rgba(229, 9, 20, 0.6),
+    inset 0 0 15px rgba(229, 9, 20, 0.3),
     0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
@@ -1076,7 +1076,7 @@ button {
 
 .download-server:hover {
   border-color: var(--primary);
-  background: rgba(138, 43, 226, 0.05);
+  background: rgba(229, 9, 20, 0.05);
 }
 
 .sidebar-card {
@@ -1120,7 +1120,7 @@ button {
   align-items: center;
   justify-content: center;
   padding-bottom: 2rem;
-  background: linear-gradient(to top, var(--bg-dark) 0%, rgba(15, 12, 41, 0.6) 50%, transparent 100%);
+  background: linear-gradient(to top, var(--bg-dark) 0%, rgba(10, 10, 10, 0.6) 50%, transparent 100%);
 }
 
 .detail-hero-inner {
@@ -1510,14 +1510,14 @@ button {
 }
 
 .options-modal {
-  background: #0f0f13;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #0f0f0f;
+  border: 1px solid rgba(229, 9, 20, 0.2);
   border-radius: 16px;
   width: 90%;
   max-width: 500px;
   max-height: 85vh;
   overflow-y: auto;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
   padding: 1.5rem;
   position: relative;
   animation: slideUp 0.3s ease;
@@ -1745,8 +1745,8 @@ button {
 
 .season-tab {
   position: relative;
-  background: linear-gradient(135deg, rgba(138, 43, 226, 0.1) 0%, rgba(88, 28, 135, 0.1) 100%);
-  border: 2px solid rgba(138, 43, 226, 0.3);
+  background: linear-gradient(135deg, rgba(229, 9, 20, 0.1) 0%, rgba(127, 29, 29, 0.1) 100%);
+  border: 2px solid rgba(229, 9, 20, 0.3);
   color: white;
   padding: 1rem 2rem;
   border-radius: 12px;
@@ -1775,7 +1775,7 @@ button {
 .season-tab:hover {
   transform: translateY(-4px);
   border-color: var(--primary);
-  box-shadow: 0 10px 20px -5px rgba(138, 43, 226, 0.4), 0 0 20px rgba(138, 43, 226, 0.2);
+  box-shadow: 0 10px 20px -5px rgba(229, 9, 20, 0.4), 0 0 20px rgba(229, 9, 20, 0.2);
 }
 
 .season-tab:hover::before {
@@ -1783,9 +1783,9 @@ button {
 }
 
 .season-tab.active {
-  background: linear-gradient(135deg, #8a2be2 0%, #581c87 100%);
+  background: linear-gradient(135deg, #e50914 0%, #991b1b 100%);
   border-color: var(--primary);
-  box-shadow: 0 0 30px rgba(138, 43, 226, 0.6), 0 10px 25px -5px rgba(138, 43, 226, 0.4);
+  box-shadow: 0 0 30px rgba(229, 9, 20, 0.6), 0 10px 25px -5px rgba(229, 9, 20, 0.4);
   transform: translateY(-2px);
 }
 
@@ -1868,7 +1868,7 @@ button {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(138, 43, 226, 0.05), transparent);
+  background: linear-gradient(90deg, transparent, rgba(229, 9, 20, 0.05), transparent);
   transform: translateX(-100%);
   transition: 0.6s;
 }
@@ -1881,7 +1881,7 @@ button {
   background: rgba(255, 255, 255, 0.05);
   border-color: var(--primary);
   transform: translateX(8px);
-  box-shadow: 0 8px 20px rgba(138, 43, 226, 0.3);
+  box-shadow: 0 8px 20px rgba(229, 9, 20, 0.3);
 }
 
 .quality-badge-large {
@@ -1971,7 +1971,7 @@ button {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(138, 43, 226, 0.2), transparent);
+  background: linear-gradient(90deg, transparent, rgba(229, 9, 20, 0.2), transparent);
   transition: left 0.5s;
 }
 
@@ -1983,13 +1983,13 @@ button {
   background: rgba(255, 255, 255, 0.1);
   border-color: var(--primary);
   transform: translateY(-2px);
-  box-shadow: 0 8px 16px rgba(138, 43, 226, 0.3);
+  box-shadow: 0 8px 16px rgba(229, 9, 20, 0.3);
 }
 
 .nav-links button.active {
-  background: linear-gradient(135deg, rgba(138, 43, 226, 0.2), rgba(88, 28, 135, 0.2));
+  background: linear-gradient(135deg, rgba(229, 9, 20, 0.2), rgba(127, 29, 29, 0.2));
   border-color: var(--primary);
-  box-shadow: 0 0 20px rgba(138, 43, 226, 0.4);
+  box-shadow: 0 0 20px rgba(229, 9, 20, 0.4);
 }
 
 /* ==================== DETAIL PAGE INFO BOX ==================== */
@@ -2075,7 +2075,7 @@ button {
 /* ==================== ENHANCED NAV BUTTONS ==================== */
 .nav-links button {
   background: rgba(255, 255, 255, 0.03);
-  border: 2px solid rgba(138, 43, 226, 0.3);
+  border: 2px solid rgba(229, 9, 20, 0.3);
   border-radius: 12px;
   padding: 0.75rem 1.75rem;
   font-weight: 600;
@@ -2093,7 +2093,7 @@ button {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(138, 43, 226, 0.3), transparent);
+  background: linear-gradient(90deg, transparent, rgba(229, 9, 20, 0.3), transparent);
   transition: left 0.6s;
 }
 
@@ -2102,18 +2102,18 @@ button {
 }
 
 .nav-links button:hover {
-  background: rgba(138, 43, 226, 0.15);
+  background: rgba(229, 9, 20, 0.15);
   border-color: var(--primary);
   color: white;
   transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(138, 43, 226, 0.4);
+  box-shadow: 0 8px 20px rgba(229, 9, 20, 0.4);
 }
 
 .nav-links button.active {
-  background: linear-gradient(135deg, #8a2be2 0%, #581c87 100%);
+  background: linear-gradient(135deg, #e50914 0%, #991b1b 100%);
   border-color: var(--primary);
   color: white;
-  box-shadow: 0 0 30px rgba(138, 43, 226, 0.6), 0 8px 20px rgba(138, 43, 226, 0.4);
+  box-shadow: 0 0 30px rgba(229, 9, 20, 0.6), 0 8px 20px rgba(229, 9, 20, 0.4);
 }
 
 .nav-links button.active::after {
@@ -2132,8 +2132,8 @@ button {
 }
 
 .download-container {
-  background: linear-gradient(135deg, rgba(138, 43, 226, 0.05), rgba(88, 28, 135, 0.05));
-  border: 1px solid rgba(138, 43, 226, 0.2);
+  background: linear-gradient(135deg, rgba(229, 9, 20, 0.05), rgba(127, 29, 29, 0.05));
+  border: 1px solid rgba(229, 9, 20, 0.2);
   border-radius: 16px;
   padding: 2rem;
   margin-top: 1rem;
@@ -2170,7 +2170,7 @@ button {
 
 .btn-download-big {
   width: 100%;
-  background: linear-gradient(135deg, #8a2be2 0%, #581c87 100%);
+  background: linear-gradient(135deg, #e50914 0%, #991b1b 100%);
   color: white;
   padding: 1.25rem 2rem;
   border-radius: 12px;
@@ -2184,12 +2184,12 @@ button {
   border: none;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 8px 24px rgba(138, 43, 226, 0.4);
+  box-shadow: 0 8px 24px rgba(229, 9, 20, 0.4);
 }
 
 .btn-download-big:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 32px rgba(138, 43, 226, 0.6);
+  box-shadow: 0 12px 32px rgba(229, 9, 20, 0.6);
 }
 
 .btn-download-big:disabled {
@@ -2256,7 +2256,7 @@ button {
 .btn-copy-url:hover {
   background: rgba(255, 255, 255, 0.15);
   border-color: var(--primary);
-  box-shadow: 0 4px 12px rgba(138, 43, 226, 0.3);
+  box-shadow: 0 4px 12px rgba(229, 9, 20, 0.3);
 }
 
 
@@ -2507,7 +2507,7 @@ button {
   content: '';
   width: 4px;
   height: 2rem;
-  background: linear-gradient(180deg, var(--primary), #581c87);
+  background: linear-gradient(180deg, var(--primary), #991b1b);
   border-radius: 4px;
 }
 
@@ -2554,7 +2554,7 @@ button {
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
   background: rgba(255, 255, 255, 0.05);
-  border: 2px solid rgba(138, 43, 226, 0.3);
+  border: 2px solid rgba(229, 9, 20, 0.3);
   border-radius: 8px;
   color: rgba(255, 255, 255, 0.7);
   font-weight: 600;
@@ -2563,16 +2563,16 @@ button {
 }
 
 .index-type-btn:hover {
-  background: rgba(138, 43, 226, 0.15);
+  background: rgba(229, 9, 20, 0.15);
   border-color: var(--primary);
   color: white;
 }
 
 .index-type-btn.active {
-  background: linear-gradient(135deg, #8a2be2, #581c87);
+  background: linear-gradient(135deg, #e50914, #991b1b);
   border-color: var(--primary);
   color: white;
-  box-shadow: 0 4px 12px rgba(138, 43, 226, 0.4);
+  box-shadow: 0 4px 12px rgba(229, 9, 20, 0.4);
 }
 
 .index-info {
@@ -2606,7 +2606,7 @@ button {
 }
 
 .index-letter-header:hover {
-  background: rgba(138, 43, 226, 0.1);
+  background: rgba(229, 9, 20, 0.1);
   border-color: var(--primary);
 }
 
@@ -2651,7 +2651,7 @@ button {
 .index-item:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-  border-color: rgba(138, 43, 226, 0.5);
+  border-color: rgba(229, 9, 20, 0.5);
 }
 
 .index-item-poster {
@@ -2702,8 +2702,8 @@ button {
 
 /* ==================== NETFLIX-STYLE HOME ==================== */
 .home-page {
-  background: radial-gradient(circle at 20% 20%, rgba(138, 43, 226, 0.12), transparent 30%),
-    radial-gradient(circle at 80% 0%, rgba(34, 211, 238, 0.15), transparent 32%),
+  background: radial-gradient(circle at 20% 20%, rgba(229, 9, 20, 0.08), transparent 30%),
+    radial-gradient(circle at 80% 0%, rgba(185, 28, 28, 0.1), transparent 32%),
     linear-gradient(180deg, var(--bg-dark) 0%, var(--bg-darker) 100%);
   min-height: 100vh;
   padding-top: var(--nav-height);
@@ -2786,7 +2786,7 @@ button {
 }
 
 .btn-hero-primary {
-  background: linear-gradient(135deg, #8a2be2 0%, #581c87 100%);
+  background: linear-gradient(135deg, #e50914 0%, #991b1b 100%);
   color: white;
   padding: 0.9rem 1.6rem;
   border-radius: 12px;
@@ -2795,13 +2795,13 @@ button {
   align-items: center;
   gap: 0.5rem;
   border: 1px solid rgba(255, 255, 255, 0.08);
-  box-shadow: 0 12px 30px rgba(138, 43, 226, 0.35);
+  box-shadow: 0 12px 30px rgba(229, 9, 20, 0.35);
   transition: transform 0.25s var(--card-ease), box-shadow 0.25s var(--card-ease);
 }
 
 .btn-hero-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 16px 36px rgba(138, 43, 226, 0.45);
+  box-shadow: 0 16px 36px rgba(229, 9, 20, 0.45);
 }
 
 .btn-hero-ghost {
