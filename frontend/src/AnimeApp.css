@@ -776,10 +776,10 @@ button {
 
 /* ==================== FOOTER ==================== */
 .site-footer {
-  background: #050508;
+  background: #030303;
   padding: 4rem 0 2rem;
   margin-top: 5rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-top: 1px solid rgba(229, 9, 20, 0.15);
 }
 
 .footer-grid {
