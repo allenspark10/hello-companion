@@ -864,7 +864,7 @@ button {
   width: 100vw !important;
   height: 100vh !important;
   min-height: unset !important;
-  background: rgba(10, 10, 18, 0.85) !important;
+  background: rgba(10, 10, 10, 0.92) !important;
   backdrop-filter: blur(8px) !important;
   -webkit-backdrop-filter: blur(8px) !important;
   border-radius: 0 !important;
