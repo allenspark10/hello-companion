@@ -27,20 +27,20 @@
     align-items: center;
     gap: 0.5rem;
     padding: 1rem 2rem;
-    background: linear-gradient(135deg, #8a2be2 0%, #a855f7 100%);
+    background: linear-gradient(135deg, #e50914 0%, #b91c1c 100%);
     color: white;
     border-radius: 12px;
     font-weight: 600;
     font-size: 1rem;
     border: none;
     cursor: pointer;
-    box-shadow: 0 4px 15px rgba(138, 43, 226, 0.3);
+    box-shadow: 0 4px 15px rgba(229, 9, 20, 0.3);
     transition: all 0.3s ease;
 }
 
 .load-more-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(138, 43, 226, 0.5);
+    box-shadow: 0 6px 20px rgba(229, 9, 20, 0.5);
 }
 
 .load-more-btn:active {
