@@ -1076,7 +1076,7 @@ button {
 
 .download-server:hover {
   border-color: var(--primary);
-  background: rgba(138, 43, 226, 0.05);
+  background: rgba(229, 9, 20, 0.05);
 }
 
 .sidebar-card {
