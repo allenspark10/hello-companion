@@ -1971,7 +1971,7 @@ button {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(138, 43, 226, 0.2), transparent);
+  background: linear-gradient(90deg, transparent, rgba(229, 9, 20, 0.2), transparent);
   transition: left 0.5s;
 }
 
@@ -1983,13 +1983,13 @@ button {
   background: rgba(255, 255, 255, 0.1);
   border-color: var(--primary);
   transform: translateY(-2px);
-  box-shadow: 0 8px 16px rgba(138, 43, 226, 0.3);
+  box-shadow: 0 8px 16px rgba(229, 9, 20, 0.3);
 }
 
 .nav-links button.active {
-  background: linear-gradient(135deg, rgba(138, 43, 226, 0.2), rgba(88, 28, 135, 0.2));
+  background: linear-gradient(135deg, rgba(229, 9, 20, 0.2), rgba(127, 29, 29, 0.2));
   border-color: var(--primary);
-  box-shadow: 0 0 20px rgba(138, 43, 226, 0.4);
+  box-shadow: 0 0 20px rgba(229, 9, 20, 0.4);
 }
 
 /* ==================== DETAIL PAGE INFO BOX ==================== */
