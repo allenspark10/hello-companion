@@ -2132,8 +2132,8 @@ button {
 }
 
 .download-container {
-  background: linear-gradient(135deg, rgba(138, 43, 226, 0.05), rgba(88, 28, 135, 0.05));
-  border: 1px solid rgba(138, 43, 226, 0.2);
+  background: linear-gradient(135deg, rgba(229, 9, 20, 0.05), rgba(127, 29, 29, 0.05));
+  border: 1px solid rgba(229, 9, 20, 0.2);
   border-radius: 16px;
   padding: 2rem;
   margin-top: 1rem;
