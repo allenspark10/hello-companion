@@ -2507,7 +2507,7 @@ button {
   content: '';
   width: 4px;
   height: 2rem;
-  background: linear-gradient(180deg, var(--primary), #581c87);
+  background: linear-gradient(180deg, var(--primary), #991b1b);
   border-radius: 4px;
 }
 
