@@ -1,5 +1,5 @@
 
-# Frontend Redesign Plan: Professional Black & Red Theme
+# Frontend Redesign Plan: Professional Black & Red Themes
 
 ## Overview
 This plan outlines a comprehensive visual redesign of the Anime Shrine frontend (`frontend/src/`) with a professional **black and red color theme**. The redesign will focus on visual improvements while **preserving all existing functionality** and backend integrations.
