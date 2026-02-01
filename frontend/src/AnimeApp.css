@@ -127,7 +127,7 @@ button {
   bottom: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(15, 12, 41, 0.9);
+  background: rgba(10, 10, 10, 0.95);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   display: flex;
