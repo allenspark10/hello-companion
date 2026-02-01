@@ -1,0 +1,23 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - REACT_APP_API_URL=${REACT_APP_API_URL}
+        - REACT_APP_TELEGRAM_URL=${REACT_APP_TELEGRAM_URL}
+        - REACT_APP_INSTAGRAM_URL=${REACT_APP_INSTAGRAM_URL}
+        - REACT_APP_TELEGRAM_POST_URL=${REACT_APP_TELEGRAM_POST_URL}
+    env_file:
+      - .env
+    environment:
+      - NODE_ENV=production
+      - PORT=80
+      - ADDON_URL=${ADDON_URL}
+      - FRONTEND_URL=${FRONTEND_URL}
+      - MONGODB_URI=${MONGODB_URI}
+      - ENABLE_AUTO_SYNC=${ENABLE_AUTO_SYNC:-true}
+      - RUN_INITIAL_SYNC=${RUN_INITIAL_SYNC:-true}
+    ports:
+      - "80:80"
+    restart: unless-stopped
