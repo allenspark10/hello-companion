@@ -2170,7 +2170,7 @@ button {
 
 .btn-download-big {
   width: 100%;
-  background: linear-gradient(135deg, #8a2be2 0%, #581c87 100%);
+  background: linear-gradient(135deg, #e50914 0%, #991b1b 100%);
   color: white;
   padding: 1.25rem 2rem;
   border-radius: 12px;
@@ -2184,12 +2184,12 @@ button {
   border: none;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 8px 24px rgba(138, 43, 226, 0.4);
+  box-shadow: 0 8px 24px rgba(229, 9, 20, 0.4);
 }
 
 .btn-download-big:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 32px rgba(138, 43, 226, 0.6);
+  box-shadow: 0 12px 32px rgba(229, 9, 20, 0.6);
 }
 
 .btn-download-big:disabled {
