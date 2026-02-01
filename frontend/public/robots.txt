@@ -1,0 +1,25 @@
+# Robots.txt for Anime Shrine
+# https://animeshrine.xyz
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://animeshrine.xyz/sitemap.xml
+
+# Allow all search engine crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Disallow admin pages
+Disallow: /admin
+Disallow: /api/
+
+# Allow specific API routes for SEO
+Allow: /api/index/sitemap.xml
