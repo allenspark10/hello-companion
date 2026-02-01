@@ -1,21 +1,21 @@
-/* ==================== NEON MIDNIGHT THEME ==================== */
+/* ==================== CRIMSON NIGHT THEME ==================== */
 :root {
-  /* Core Colors */
-  --bg-dark: #0f0c29;
-  --bg-darker: #0a0a12;
-  --bg-card: #1a1a2e;
-  --primary: #8a2be2;
-  /* Neon Purple */
-  --primary-glow: rgba(138, 43, 226, 0.6);
-  --secondary: #00ffff;
-  /* Cyan */
-  --secondary-glow: rgba(0, 255, 255, 0.6);
+  /* Core Colors - BLACK & RED THEME */
+  --bg-dark: #0a0a0a;
+  --bg-darker: #050505;
+  --bg-card: #141414;
+  --primary: #e50914;
+  /* Netflix Red */
+  --primary-glow: rgba(229, 9, 20, 0.6);
+  --secondary: #b91c1c;
+  /* Dark Red */
+  --secondary-glow: rgba(185, 28, 28, 0.6);
   --text-main: #ffffff;
-  --text-muted: rgba(255, 255, 255, 0.7);
+  --text-muted: rgba(255, 255, 255, 0.65);
 
   /* Glassmorphism */
-  --glass-bg: rgba(20, 20, 40, 0.7);
-  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-bg: rgba(10, 10, 10, 0.85);
+  --glass-border: rgba(229, 9, 20, 0.1);
   --glass-blur: 12px;
 
   /* Layout */
@@ -28,14 +28,14 @@
   /* Card FX */
   --card-border: 2px;
   --card-lift: -4px;
-  --card-shadow: 0 18px 38px rgba(0, 0, 0, 0.35);
+  --card-shadow: 0 18px 38px rgba(0, 0, 0, 0.45);
   --card-ease: cubic-bezier(0.4, 0.2, 0.2, 1);
   --card-gradient: linear-gradient(135deg,
-      #3b82f6,
-      #7c3aed,
-      #c026d3,
-      #22d3ee,
-      #3b82f6);
+      #e50914,
+      #dc2626,
+      #b91c1c,
+      #991b1b,
+      #e50914);
 }
 
 /* ==================== GLOBAL STYLES ==================== */
