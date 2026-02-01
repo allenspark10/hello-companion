@@ -2702,8 +2702,8 @@ button {
 
 /* ==================== NETFLIX-STYLE HOME ==================== */
 .home-page {
-  background: radial-gradient(circle at 20% 20%, rgba(138, 43, 226, 0.12), transparent 30%),
-    radial-gradient(circle at 80% 0%, rgba(34, 211, 238, 0.15), transparent 32%),
+  background: radial-gradient(circle at 20% 20%, rgba(229, 9, 20, 0.08), transparent 30%),
+    radial-gradient(circle at 80% 0%, rgba(185, 28, 28, 0.1), transparent 32%),
     linear-gradient(180deg, var(--bg-dark) 0%, var(--bg-darker) 100%);
   min-height: 100vh;
   padding-top: var(--nav-height);
