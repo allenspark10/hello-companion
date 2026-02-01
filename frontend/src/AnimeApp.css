@@ -2786,7 +2786,7 @@ button {
 }
 
 .btn-hero-primary {
-  background: linear-gradient(135deg, #8a2be2 0%, #581c87 100%);
+  background: linear-gradient(135deg, #e50914 0%, #991b1b 100%);
   color: white;
   padding: 0.9rem 1.6rem;
   border-radius: 12px;
@@ -2795,13 +2795,13 @@ button {
   align-items: center;
   gap: 0.5rem;
   border: 1px solid rgba(255, 255, 255, 0.08);
-  box-shadow: 0 12px 30px rgba(138, 43, 226, 0.35);
+  box-shadow: 0 12px 30px rgba(229, 9, 20, 0.35);
   transition: transform 0.25s var(--card-ease), box-shadow 0.25s var(--card-ease);
 }
 
 .btn-hero-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 16px 36px rgba(138, 43, 226, 0.45);
+  box-shadow: 0 16px 36px rgba(229, 9, 20, 0.45);
 }
 
 .btn-hero-ghost {
