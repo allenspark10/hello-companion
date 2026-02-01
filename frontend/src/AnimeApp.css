@@ -213,7 +213,7 @@ button {
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(138, 43, 226, 0.5);
+  box-shadow: 0 6px 20px rgba(229, 9, 20, 0.5);
 }
 
 .btn-secondary {
